@@ -19,7 +19,7 @@ This template is structured to accommodate a variety of project types, featuring
 ### Files:
 - `README.md`: Comprehensive project documentation, including setup, usage, and contribution information.
 - `LICENSE`: Specifies the licensing terms under which the project is released.
-- `requirements.txt` or `package.json`: Lists dependencies for Python and JavaScript projects, respectively.
+- `requirements.txt` or `package.json` or `package-lock.json`: Lists dependencies for Python and JavaScript projects, respectively.
 - `.gitignore`: Specifies untracked files that Git should ignore (e.g., environment files, build outputs).
 - `Dockerfile` or `docker-compose.yml`: Docker configurations for containerizing the application (if applicable).
 - `.env.example`: An example environment file template, listing necessary environment variables without real values for security. In some cases, you might see custom names like `env.development`, `env.production`, etc., to differentiate between different environments (`development`, `staging`, `production`).
